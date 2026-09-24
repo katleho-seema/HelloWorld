@@ -3,13 +3,15 @@
 using namespace std;
 
 int main(){
-    const int SIZE = 6;
+    string name = "Katleho";
+    int age = 12;
+    double height = 1.55;
+    char letter = 'N';
+    bool coding = true;
 
-    int numbers[SIZE] = {1,24,13,0,3};
-
-    for (int i = 0; i< SIZE ; i++) {
-        cout << numbers[i] << " ";
-
-    }
+    cout << "My name is " << name << endl;
+    cout << "I am " << age << " years old." << endl;
+    cout << "My height is " << height << endl;
+    cout << "Do I like coding? " << coding << endl;
     return 0;
 }
