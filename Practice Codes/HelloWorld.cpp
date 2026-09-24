@@ -14,7 +14,7 @@ int main(){
     cout << "My height is " << height << endl;
     cout << "Do I like coding? " << coding << endl;*/
     // Operations
-
+/*
     int num1;
     int num2;
 
@@ -26,6 +26,21 @@ int main(){
     int Total = num1 + num2;
     
     cout << Total << endl;
-    
+    */
+
+    // Conditional Statements
+    int age;
+    cout << " Enter your age: ";
+    cin >> age;
+    if (age < 13 ){
+        cout << "Child ticket";
+    }
+    else if (age >= 13 && age < 18) {
+        cout << "Teen ticket";
+    }else{
+        cout << "Adult Ticket";
+    }
+
+
     return 0;
 }
